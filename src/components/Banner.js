@@ -1,8 +1,8 @@
 import React from 'react';
 // image
-import image from '../assets/avatar.svg';
+import image from '../assets/avata.png';
 // icons
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaFacebookF, FaDribbble } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -62,10 +62,10 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="#">
-                <FaYoutube />
+              <a href="https://www.facebook.com/rmarfin.zishan.9" target="blank">
+                <FaFacebookF />
               </a>
-              <a href="#">
+              <a href="https://github.com/masraful" target='blank'>
                 <FaGithub />
               </a>
               <a href="#">

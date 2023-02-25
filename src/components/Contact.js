@@ -9,7 +9,9 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    // e.preventDefault();
     e.preventDefault();
+    e.reset()
 
     emailjs.sendForm('service_d3itscn', 'template_fjj93kd', form.current, 'aSQCQds9E29gPeCrx')
       .then((result) => {

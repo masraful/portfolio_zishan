@@ -36,10 +36,11 @@ const Services = () => {
     <section className='section' id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
-          <motion.div variants={fadeIn("right", 0.3)}
+          <motion.div
+            variants={fadeIn("right", 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-5'>
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
             <h3 className='h3 max-w-[455px] mb-16'> i'm a Freelance Front-end Developer With over 5 years of Ecperience</h3>
@@ -50,7 +51,7 @@ const Services = () => {
             variants={fadeIn("left", 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1'>
             <div className=''>
               {/* services */}
