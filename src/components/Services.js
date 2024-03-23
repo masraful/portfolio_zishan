@@ -43,7 +43,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-5'>
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-            <h3 className='h3 max-w-[455px] mb-16'> i'm a Freelance Front-end Developer With over 5 years of Ecperience</h3>
+            <h3 className='h3 max-w-[455px] mb-16'> i'm a Freelance Front-end Developer With over 2 years of Ecperience</h3>
             <button className='btn btm-sm px-5'>See my work</button>
             {/* text */}
           </motion.div>

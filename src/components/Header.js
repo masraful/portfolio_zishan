@@ -12,7 +12,7 @@ const Header = () => {
             <span className='text-gradient btn-link text-xl font-bold'>Masraful Zishan</span>
             {/* <img src={logo} alt="logo" /> */}
           </a>
-          <button className='btn btn-sm'>Work with me</button>
+          <button className='btn btn-sm'><a href="www.linkedin.com/in/masraful-zishan"> Work with me</a></button>
         </div>
       </div>
     </header>

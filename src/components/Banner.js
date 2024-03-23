@@ -50,25 +50,26 @@ const Banner = () => {
               variants={fadeIn("up", 0.5)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas aperiam fugit aliquam dolore maxime ipsa distinctio totam alias vitae.</motion.p>
+              viewport={{ once: false, amount: 0.7 }} className='mb-8 max-w-lg mx-auto lg:mx-0'>Hey,
+              I am Masraful Zishan . I am a Frontend Developer and Mern Developer. I am well-versed in HTML, CSS, JavaScript, and React and have essential programming experience working on my projects. I also have good knowledge of databases. I love to take on new challenges on every new project. I am constantly trying to work on new frameworks and languages. I quickly learn new tasks and technologies and can follow instructions, and work well with a team.</motion.p>
             <motion.div variants={fadeIn("up", 0.6)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
+              <button className='btn btn-lg'><a href="www.linkedin.com/in/masraful-zishan">Contact me</a></button>
               <a href="#" className='text-gradient btn-link'>My Portfolio</a>
             </motion.div>
             <motion.div variants={fadeIn("up", 0.8)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="https://www.facebook.com/rmarfin.zishan.9" target="blank">
+              <a href="https://www.facebook.com/masrafulzishan07/" target="blank">
                 <FaFacebookF />
               </a>
               <a href="https://github.com/masraful" target='blank'>
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="www.linkedin.com/in/masraful-zishan">
                 <FaDribbble />
               </a>
             </motion.div>
